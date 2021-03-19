@@ -1,7 +1,7 @@
 data "azurerm_client_config" "current" {}
 
 resource "azurerm_key_vault" "azure_vault" {
-  name                        = "AnimalName_Dev"
+  name                        = "AnimalNameDev"
   location                    = data.azurerm_resource_group.azuredevops.location
   resource_group_name         = data.azurerm_resource_group.azuredevops.name
   enabled_for_disk_encryption = true
