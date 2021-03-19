@@ -17,7 +17,7 @@ variable "location" {
 
 variable "object_id" {
     type = string
-    default = "e0829eb6-c352-4823-abb2-82a6c69d6a0f"
+    default = "d0b89548-1248-4501-9013-961ad8faf435"
 }
 
 

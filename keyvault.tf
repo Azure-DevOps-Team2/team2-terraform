@@ -16,15 +16,15 @@ resource "azurerm_key_vault" "azure_vault" {
     object_id = var.object_id
 
     key_permissions = [
-      "Get", "List", "Update", "Create", "Import"
+      "Get", "List", "Update", "Create", "Import", "Backup", "Delete", "Get List", "Purge", "Restore",
     ]
 
     secret_permissions = [
-      "Get", "List", "Update", "Create", "Import"
+      "Get", "List", "Update", "Create", "Import",
     ]
 
     storage_permissions = [
-      "Get", "List", "Update", "Create", "Import"
+      "Get", "List", "Update", "Create", "Import",
     ]
   }
 }
