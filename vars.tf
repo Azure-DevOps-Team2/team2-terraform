@@ -27,3 +27,5 @@ variable "tags" {
       "environment"             = "production",
       "backup"                  = "false",
       "created_by"              = "terraform",
+  }
+}
