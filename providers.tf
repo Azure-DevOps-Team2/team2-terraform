@@ -4,6 +4,7 @@ terraform {
     azurerm = {
       source = "hashicorp/azurerm"
       version = ">= 2.26"
+      skip_provider_registration = true
     }
   }
 }
